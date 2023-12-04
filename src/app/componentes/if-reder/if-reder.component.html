@@ -1,0 +1,8 @@
+<p>if-reder works!</p>
+<div class="aula">
+    <div *ngIf="mostrar">Estamos mostrando esse texto porque foi permitido</div>
+    <h2 *ngIf="nome === 'Luis Gustavo' ">O nome é Luis Gustavo</h2>
+    <ng-template #nomeNaoEncotrado>
+        <div><h2>O nome não foi encontrado</h2></div>
+    </ng-template>
+</div>
